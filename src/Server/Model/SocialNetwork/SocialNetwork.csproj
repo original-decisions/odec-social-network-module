@@ -8,29 +8,36 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Description>Language server model.</Description>
+    <Description>Social Network server model.</Description>
     <Copyright>Original Decisions</Copyright>
     <VersionPrefix>1.0.1</VersionPrefix>
     <Authors>Mary Pirogova &lt;mashijob@yandex.ru&gt;;Alex Pirogov &lt;pirjob@yandex.ru&gt;</Authors>
     <TargetFrameworks>netcoreapp1.0;net452;netcoreapp2.1</TargetFrameworks>
-    <AssemblyName>odec.CP.Server.Model.Language</AssemblyName>
-    <PackageId>odec.CP.Server.Model.Language</PackageId>
-    <PackageTags>Language;Server Model;odec;Original Decisions</PackageTags>
+    <AssemblyName>odec.CP.Server.Model.SocialNetwork</AssemblyName>
+    <PackageId>odec.CP.Server.Model.SocialNetwork</PackageId>
+    <PackageTags>Social Network;Server Model;odec;Original Decisions</PackageTags>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">$(PackageTargetFallback);dotnet5.6</PackageTargetFallback>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\odec.CP.Server.Model.Language.Abst\odec.CP.Server.Model.Language.Abst.csproj" />
+    <PackageReference Include="odec.CP.Server.Model.User.Membership" Version="1.1.*"></PackageReference>
+    <PackageReference Include="odec.CP.Server.Model.Menu" Version="1.1.*"></PackageReference>
+    <PackageReference Include="odec.CP.Server.Model.Secure.Attachment" Version="1.1.*"></PackageReference>
+    <PackageReference Include="odec.CP.Server.Model.Conversation" Version="1.1.*"></PackageReference>
+    <PackageReference Include="odec.CP.Server.Model.Achievement" Version="1.1.*"></PackageReference>
   </ItemGroup>
-<ItemGroup>
-  <packagereference Include="odec.CP.Server.Model.User" Version="1.1.*"></packagereference>
-</ItemGroup>
+
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Education\Education.csproj" />
+    <ProjectReference Include="..\Language\Language.csproj" />
+    <ProjectReference Include="..\Wall\Wall.csproj" />
   </ItemGroup>
 
 </Project>

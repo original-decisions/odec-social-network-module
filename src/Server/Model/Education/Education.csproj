@@ -24,13 +24,14 @@
 <ItemGroup>
   <packagereference Include="odec.CP.Server.Model.User" Version="1.1.*"></packagereference>
 </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\odec.CP.Server.Model.Education.Abst\odec.CP.Server.Model.Education.Abst.csproj" />
-  </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Education.Abst\Education.Abst.csproj" />
   </ItemGroup>
 
 </Project>

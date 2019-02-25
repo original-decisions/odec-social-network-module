@@ -24,13 +24,14 @@
 <ItemGroup>
   <packageReference Include="odec.CP.Server.Model.Message" Version="1.1.*"></packageReference>
 </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\odec.CP.Server.Model.Wall.Abst\odec.CP.Server.Model.Wall.Abst.csproj" />
-  </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wall.Abst\Wall.Abst.csproj" />
   </ItemGroup>
 
 </Project>

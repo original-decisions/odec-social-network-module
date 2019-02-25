@@ -5,19 +5,23 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{C2F2A2DD-50B9-452D-A143-68DB91EE258F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Wall.Abst", "..\SocialNetwork\Model\odec.CP.Server.Model.Wall.Abst\odec.CP.Server.Model.Wall.Abst.csproj", "{0C25861B-5054-441A-8BDB-3ADFFC109B79}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{98C23749-FF81-4263-AB77-3EA70A222670}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Wall", "..\SocialNetwork\Model\odec.CP.Server.Model.Wall\odec.CP.Server.Model.Wall.csproj", "{BEB311EC-13BF-4A25-A2BB-0BB2C9DE90FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Tester", "..\tests\SocialNetwork.Tester\SocialNetwork.Tester.csproj", "{14488571-FC6D-4C3B-A765-C482A7EFF2D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.SocialNetwork", "..\SocialNetwork\Model\odec.CP.Server.Model.SocialNetwork\odec.CP.Server.Model.SocialNetwork.csproj", "{EAFABA0D-BE28-43CE-BCF2-1E689DC51CD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wall.Abst", "..\src\Server\Model\Wall.Abst\Wall.Abst.csproj", "{DE4C3CC1-F81C-4220-926E-FEADBC0D71F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Language.Abst", "..\SocialNetwork\Model\odec.CP.Server.Model.Language.Abst\odec.CP.Server.Model.Language.Abst.csproj", "{D2ED0C90-D687-4A22-A552-C555603243D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Abst", "..\src\Server\Model\Education.Abst\Education.Abst.csproj", "{0E4C4DB1-4DE7-4854-8DB0-0E8A25DE5804}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Language", "..\SocialNetwork\Model\odec.CP.Server.Model.Language\odec.CP.Server.Model.Language.csproj", "{2E357D67-4504-417F-8D55-4DB6E9692A07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Language.Abst", "..\src\Server\Model\Language.Abst\Language.Abst.csproj", "{D1CC4AA3-DFA2-4BC5-ABC1-15A6CF0010E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Education.Abst", "..\SocialNetwork\Model\odec.CP.Server.Model.Education.Abst\odec.CP.Server.Model.Education.Abst.csproj", "{51E62640-A18A-4D42-BD0E-0D4877AF627C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education", "..\src\Server\Model\Education\Education.csproj", "{50675377-73D8-49B3-BD11-A482D312EF09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.CP.Server.Model.Education", "..\SocialNetwork\Model\odec.CP.Server.Model.Education\odec.CP.Server.Model.Education.csproj", "{F7A0062B-DAF0-4A57-9E72-7AD1DF7BF787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Language", "..\src\Server\Model\Language\Language.csproj", "{36A0C411-488D-479D-A251-EB8591A3BE4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wall", "..\src\Server\Model\Wall\Wall.csproj", "{6176B426-7043-4E53-B4AD-16477FE1CA65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork", "..\src\Server\Model\SocialNetwork\SocialNetwork.csproj", "{69B591B7-19B9-48CF-BD2C-EAE83C783C78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,95 +29,53 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C25861B-5054-441A-8BDB-3ADFFC109B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C25861B-5054-441A-8BDB-3ADFFC109B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C25861B-5054-441A-8BDB-3ADFFC109B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C25861B-5054-441A-8BDB-3ADFFC109B79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEB311EC-13BF-4A25-A2BB-0BB2C9DE90FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEB311EC-13BF-4A25-A2BB-0BB2C9DE90FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEB311EC-13BF-4A25-A2BB-0BB2C9DE90FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEB311EC-13BF-4A25-A2BB-0BB2C9DE90FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAFABA0D-BE28-43CE-BCF2-1E689DC51CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAFABA0D-BE28-43CE-BCF2-1E689DC51CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAFABA0D-BE28-43CE-BCF2-1E689DC51CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAFABA0D-BE28-43CE-BCF2-1E689DC51CD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2ED0C90-D687-4A22-A552-C555603243D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2ED0C90-D687-4A22-A552-C555603243D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2ED0C90-D687-4A22-A552-C555603243D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2ED0C90-D687-4A22-A552-C555603243D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E357D67-4504-417F-8D55-4DB6E9692A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E357D67-4504-417F-8D55-4DB6E9692A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E357D67-4504-417F-8D55-4DB6E9692A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E357D67-4504-417F-8D55-4DB6E9692A07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51E62640-A18A-4D42-BD0E-0D4877AF627C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51E62640-A18A-4D42-BD0E-0D4877AF627C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51E62640-A18A-4D42-BD0E-0D4877AF627C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51E62640-A18A-4D42-BD0E-0D4877AF627C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7A0062B-DAF0-4A57-9E72-7AD1DF7BF787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7A0062B-DAF0-4A57-9E72-7AD1DF7BF787}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7A0062B-DAF0-4A57-9E72-7AD1DF7BF787}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7A0062B-DAF0-4A57-9E72-7AD1DF7BF787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14488571-FC6D-4C3B-A765-C482A7EFF2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14488571-FC6D-4C3B-A765-C482A7EFF2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14488571-FC6D-4C3B-A765-C482A7EFF2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14488571-FC6D-4C3B-A765-C482A7EFF2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4C3CC1-F81C-4220-926E-FEADBC0D71F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4C3CC1-F81C-4220-926E-FEADBC0D71F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4C3CC1-F81C-4220-926E-FEADBC0D71F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4C3CC1-F81C-4220-926E-FEADBC0D71F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4C4DB1-4DE7-4854-8DB0-0E8A25DE5804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4C4DB1-4DE7-4854-8DB0-0E8A25DE5804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4C4DB1-4DE7-4854-8DB0-0E8A25DE5804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4C4DB1-4DE7-4854-8DB0-0E8A25DE5804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CC4AA3-DFA2-4BC5-ABC1-15A6CF0010E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CC4AA3-DFA2-4BC5-ABC1-15A6CF0010E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CC4AA3-DFA2-4BC5-ABC1-15A6CF0010E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CC4AA3-DFA2-4BC5-ABC1-15A6CF0010E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50675377-73D8-49B3-BD11-A482D312EF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50675377-73D8-49B3-BD11-A482D312EF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50675377-73D8-49B3-BD11-A482D312EF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50675377-73D8-49B3-BD11-A482D312EF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0C411-488D-479D-A251-EB8591A3BE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0C411-488D-479D-A251-EB8591A3BE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0C411-488D-479D-A251-EB8591A3BE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0C411-488D-479D-A251-EB8591A3BE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6176B426-7043-4E53-B4AD-16477FE1CA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6176B426-7043-4E53-B4AD-16477FE1CA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6176B426-7043-4E53-B4AD-16477FE1CA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6176B426-7043-4E53-B4AD-16477FE1CA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B591B7-19B9-48CF-BD2C-EAE83C783C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B591B7-19B9-48CF-BD2C-EAE83C783C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B591B7-19B9-48CF-BD2C-EAE83C783C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B591B7-19B9-48CF-BD2C-EAE83C783C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0C25861B-5054-441A-8BDB-3ADFFC109B79} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
-		{BEB311EC-13BF-4A25-A2BB-0BB2C9DE90FC} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
-		{EAFABA0D-BE28-43CE-BCF2-1E689DC51CD2} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
-		{D2ED0C90-D687-4A22-A552-C555603243D8} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
-		{2E357D67-4504-417F-8D55-4DB6E9692A07} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
-		{51E62640-A18A-4D42-BD0E-0D4877AF627C} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
-		{F7A0062B-DAF0-4A57-9E72-7AD1DF7BF787} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{14488571-FC6D-4C3B-A765-C482A7EFF2D4} = {98C23749-FF81-4263-AB77-3EA70A222670}
+		{DE4C3CC1-F81C-4220-926E-FEADBC0D71F8} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{0E4C4DB1-4DE7-4854-8DB0-0E8A25DE5804} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{D1CC4AA3-DFA2-4BC5-ABC1-15A6CF0010E3} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{50675377-73D8-49B3-BD11-A482D312EF09} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{36A0C411-488D-479D-A251-EB8591A3BE4F} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{6176B426-7043-4E53-B4AD-16477FE1CA65} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
+		{69B591B7-19B9-48CF-BD2C-EAE83C783C78} = {C2F2A2DD-50B9-452D-A143-68DB91EE258F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F617DCE7-7265-416D-BB8C-C6075A2511E5}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://pirmosk.visualstudio.com/defaultcollection
-		SccProjectUniqueName0 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Wall.Abst\\odec.CP.Server.Model.Wall.Abst.csproj
-		SccProjectTopLevelParentUniqueName0 = odec.SocialNetwork.sln
-		SccProjectName0 = ../SocialNetwork/Model/odec.CP.Server.Model.Wall.Abst
-		SccAuxPath0 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath0 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Wall.Abst
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Wall\\odec.CP.Server.Model.Wall.csproj
-		SccProjectTopLevelParentUniqueName1 = odec.SocialNetwork.sln
-		SccProjectName1 = ../SocialNetwork/Model/odec.CP.Server.Model.Wall
-		SccAuxPath1 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath1 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Wall
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName2 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.SocialNetwork\\odec.CP.Server.Model.SocialNetwork.csproj
-		SccProjectTopLevelParentUniqueName2 = odec.SocialNetwork.sln
-		SccProjectName2 = ../SocialNetwork/Model/odec.CP.Server.Model.SocialNetwork
-		SccAuxPath2 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath2 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.SocialNetwork
-		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName3 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Language.Abst\\odec.CP.Server.Model.Language.Abst.csproj
-		SccProjectTopLevelParentUniqueName3 = odec.SocialNetwork.sln
-		SccProjectName3 = ../SocialNetwork/Model/odec.CP.Server.Model.Language.Abst
-		SccAuxPath3 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath3 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Language.Abst
-		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName4 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Language\\odec.CP.Server.Model.Language.csproj
-		SccProjectTopLevelParentUniqueName4 = odec.SocialNetwork.sln
-		SccProjectName4 = ../SocialNetwork/Model/odec.CP.Server.Model.Language
-		SccAuxPath4 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath4 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Language
-		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName5 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Education.Abst\\odec.CP.Server.Model.Education.Abst.csproj
-		SccProjectTopLevelParentUniqueName5 = odec.SocialNetwork.sln
-		SccProjectName5 = ../SocialNetwork/Model/odec.CP.Server.Model.Education.Abst
-		SccAuxPath5 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath5 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Education.Abst
-		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName6 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Education\\odec.CP.Server.Model.Education.csproj
-		SccProjectTopLevelParentUniqueName6 = odec.SocialNetwork.sln
-		SccProjectName6 = ../SocialNetwork/Model/odec.CP.Server.Model.Education
-		SccAuxPath6 = https://pirmosk.visualstudio.com/defaultcollection
-		SccLocalPath6 = ..\\SocialNetwork\\Model\\odec.CP.Server.Model.Education
-		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
